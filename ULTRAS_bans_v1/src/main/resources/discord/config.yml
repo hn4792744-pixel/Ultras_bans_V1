@@ -1,0 +1,25 @@
+# =============================================================================
+# ULTRAS_bans_v1 - Discord Integration
+# =============================================================================
+# Delivery uses Discord Webhooks over HTTPS: no bot needs to be added to your
+# server, and no bot token is ever stored or transmitted by this plugin. Create
+# a webhook per Discord channel (Channel Settings -> Integrations -> Webhooks)
+# and paste its URL into discord/channels.yml.
+#
+# NEVER put a real token or webhook URL directly in this file or commit it to
+# a public repository. channels.yml is git-ignored by default in the README's
+# suggested .gitignore.
+# -----------------------------------------------------------------------------
+
+enabled: false
+
+# Reserved for a future bot-based mode (slash commands, live channel topics).
+# Webhook delivery below does not require this and it is never read unless
+# mode is changed to "bot" in a future version.
+bot-token: ""
+
+language: en
+
+# Requests are queued and sent asynchronously in small batches so a slow or
+# rate-limited Discord response can never cause server lag.
+rate-limit-per-second: 4

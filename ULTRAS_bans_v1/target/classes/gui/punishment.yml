@@ -1,0 +1,43 @@
+title: "&c&lᴜʟᴛʀᴀs &8» &f{name}"
+size: 54
+filler:
+  enabled: true
+  border-only: true
+  material: BLACK_STAINED_GLASS_PANE
+  name: " "
+items:
+  head:
+    slot: 4
+    material: PLAYER_HEAD
+    name: "&c{name}"
+    lore:
+      - "&7ᴜᴜɪᴅ: &f{uuid}"
+      - "&7ꜱᴛᴀᴛᴜꜱ: {status}"
+      - "&7ɪᴘ: &f{ip}"
+      - "&7ʀᴀɴᴋ: &f{rank} &7| ᴏᴘ: {op}"
+      - "&7ꜱᴇʀᴠᴇʀ: &f{server} &7| ᴡᴏʀʟᴅ: &f{world}"
+      - "&7ᴄᴏᴏʀᴅꜱ: &f{coords}"
+      - " "
+      - "&7ᴀᴄᴛɪᴠᴇ ᴘᴜɴɪꜱʜᴍᴇɴᴛꜱ:"
+      - "{punishments}"
+  ban:          { slot: 19, material: IRON_AXE, name: "&c&lʙᴀɴ", permission: "ultrasbans.ban", lore: ["&7ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ"] }
+  temp_ban:     { slot: 20, material: WOODEN_AXE, name: "&c&lᴛᴇᴍᴘ ʙᴀɴ", permission: "ultrasbans.ban", lore: ["&7ᴄʜᴏᴏꜱᴇ ᴀ ᴅᴜʀᴀᴛɪᴏɴ"] }
+  ip_ban:       { slot: 21, material: TNT, name: "&c&lɪᴘ ʙᴀɴ", permission: "ultrasbans.ipban", lore: ["&7ᴘᴇʀᴍᴀɴᴇɴᴛ ɪᴘ ʙᴀɴ"] }
+  temp_ip_ban:  { slot: 22, material: FIRE_CHARGE, name: "&c&lᴛᴇᴍᴘ ɪᴘ ʙᴀɴ", permission: "ultrasbans.ipban", lore: ["&7ᴄʜᴏᴏꜱᴇ ᴀ ᴅᴜʀᴀᴛɪᴏɴ"] }
+  mute:         { slot: 23, material: PAPER, name: "&c&lᴍᴜᴛᴇ", permission: "ultrasbans.mute", lore: ["&7ᴘᴇʀᴍᴀɴᴇɴᴛ ᴍᴜᴛᴇ"] }
+  temp_mute:    { slot: 24, material: MAP, name: "&c&lᴛᴇᴍᴘ ᴍᴜᴛᴇ", permission: "ultrasbans.mute", lore: ["&7ᴄʜᴏᴏꜱᴇ ᴀ ᴅᴜʀᴀᴛɪᴏɴ"] }
+  warn:         { slot: 25, material: YELLOW_DYE, name: "&e&lᴡᴀʀɴ", permission: "ultrasbans.warn", lore: ["&7ɪꜱꜱᴜᴇ ᴀ ᴡᴀʀɴɪɴɢ"] }
+  temp_warn:    { slot: 28, material: ORANGE_DYE, name: "&e&lᴛᴇᴍᴘ ᴡᴀʀɴ", permission: "ultrasbans.warn", lore: ["&7ᴇxᴘɪʀɪɴɢ ᴡᴀʀɴɪɴɢ"] }
+  kick:         { slot: 29, material: LEATHER_BOOTS, name: "&e&lᴋɪᴄᴋ", permission: "ultrasbans.kick" }
+  freeze:       { slot: 30, material: BLUE_ICE, name: "&b&lꜰʀᴇᴇᴢᴇ", permission: "ultrasbans.freeze" }
+  jail:         { slot: 31, material: IRON_BARS, name: "&7&lᴊᴀɪʟ", permission: "ultrasbans.jail" }
+  unban:        { slot: 37, material: LIME_DYE, name: "&a&lᴜɴʙᴀɴ", permission: "ultrasbans.ban" }
+  unipban:      { slot: 38, material: LIME_DYE, name: "&a&lᴜɴ-ɪᴘ-ʙᴀɴ", permission: "ultrasbans.ipban" }
+  unmute:       { slot: 39, material: LIME_DYE, name: "&a&lᴜɴᴍᴜᴛᴇ", permission: "ultrasbans.mute" }
+  unfreeze:     { slot: 40, material: LIME_DYE, name: "&a&lᴜɴꜰʀᴇᴇᴢᴇ", permission: "ultrasbans.freeze" }
+  unjail:       { slot: 41, material: LIME_DYE, name: "&a&lᴜɴᴊᴀɪʟ", permission: "ultrasbans.jail" }
+  clear_all:    { slot: 42, material: BARRIER, name: "&4&lᴄʟᴇᴀʀ ᴀʟʟ ᴘᴜɴɪꜱʜᴍᴇɴᴛꜱ", permission: "ultrasbans.admin" }
+  history:      { slot: 46, material: BOOK, name: "&f&lᴘᴜɴɪꜱʜᴍᴇɴᴛ ʜɪꜱᴛᴏʀʏ" }
+  warnings:     { slot: 47, material: WRITABLE_BOOK, name: "&e&lᴡᴀʀɴɪɴɢꜱ" }
+  info:         { slot: 48, material: NAME_TAG, name: "&f&lᴘʟᴀʏᴇʀ ɪɴꜰᴏ" }
+  back:         { slot: 49, material: ARROW, name: "&7« ʙᴀᴄᴋ" }

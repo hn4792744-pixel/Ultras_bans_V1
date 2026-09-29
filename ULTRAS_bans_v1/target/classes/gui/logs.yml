@@ -1,0 +1,53 @@
+title: "&c&lᴜʟᴛʀᴀs &8» &fʟᴏɢꜱ: {type} — {name}"
+size: 54
+filler: { enabled: true, border-only: true, material: BLACK_STAINED_GLASS_PANE, name: " " }
+type-materials:
+  BAN: IRON_AXE
+  IP_BAN: TNT
+  MUTE: PAPER
+  WARN: YELLOW_DYE
+  KICK: LEATHER_BOOTS
+  FREEZE: BLUE_ICE
+  JAIL: IRON_BARS
+  VANISH: GLASS
+items:
+  entry:
+    slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34,37,38,39,40,41,42,43]
+    material: PAPER
+    name: "&c#{id} &f{type}"
+    lore:
+      - "&7ꜱᴛᴀᴛᴜꜱ: &f{status}"
+      - "&7ʀᴇᴀꜱᴏɴ: &f{reason}"
+      - "&7ᴅᴜʀᴀᴛɪᴏɴ: &f{duration}"
+      - "&7ᴏᴘᴇʀᴀᴛᴏʀ: &f{operator}"
+      - "&7ᴅᴀᴛᴇ: &f{date}"
+      - "&7ᴇxᴘɪʀᴇꜱ: &f{expires}"
+      - " "
+      - "&aᴄʟɪᴄᴋ ꜰᴏʀ ꜰᴜʟʟ ᴅᴇᴛᴀɪʟꜱ"
+  empty: { slot: 31, material: BARRIER, name: "&7ɴᴏ ʀᴇᴄᴏʀᴅꜱ ꜰᴏᴜɴᴅ" }
+  previous: { slot: 45, material: ARROW, name: "&c« ᴘʀᴇᴠɪᴏᴜꜱ" }
+  page_info: { slot: 49, material: PAPER, name: "&fᴘᴀɢᴇ {page}/{pages}" }
+  next: { slot: 53, material: ARROW, name: "&cɴᴇxᴛ »" }
+  back: { slot: 47, material: ARROW, name: "&7« ʙᴀᴄᴋ" }
+book:
+  lines-per-page: 12
+  back: "&c[« Back]"
+  lines:
+    - "&l&cPunishment #{id}"
+    - " "
+    - "&7Type: &f{type}"
+    - "&7Status: &f{status}"
+    - "&7Reason: &f{reason}"
+    - "&7Duration: &f{duration}"
+    - " "
+    - "&7Operator: &f{operator}"
+    - "&7Date: &f{date}"
+    - "&7Expires: &f{expires}"
+    - "&7Server: &f{server}"
+    - "&7World: &f{world}"
+    - "&7Location: &f{location}"
+    - "&7Source: &f{source}"
+    - "&7IP: &f{ip}"
+    - " "
+    - "&7Resolved: &f{resolved}"
+    - "&7Resolved by: &f{resolved_by}"

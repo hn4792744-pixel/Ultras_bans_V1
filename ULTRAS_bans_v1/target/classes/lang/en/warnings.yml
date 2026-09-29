@@ -1,0 +1,5 @@
+warn-issued: "&c&lᴜʟᴛʀᴀs &8| &e⚠ ʏᴏᴜ ʜᴀᴠᴇ ʙᴇᴇɴ ᴡᴀʀɴᴇᴅ. &7ʀᴇᴀꜱᴏɴ: &f{reason}"
+staff-warned: "&c&lᴜʟᴛʀᴀs &8| &a✓ ᴡᴀʀɴɪɴɢ ɪꜱꜱᴜᴇᴅ ᴛᴏ &f{0}&a."
+no-active-warnings: "&c&lᴜʟᴛʀᴀs &8| &7📋 ɴᴏ ᴀᴄᴛɪᴠᴇ ᴡᴀʀɴɪɴɢꜱ ꜰᴏᴜɴᴅ."
+warning-removed: "&c&lᴜʟᴛʀᴀs &8| &a✓ ᴡᴀʀɴɪɴɢ ʀᴇᴍᴏᴠᴇᴅ."
+all-warnings-removed: "&c&lᴜʟᴛʀᴀs &8| &a✓ ʀᴇᴍᴏᴠᴇᴅ &f{0} &aᴡᴀʀɴɪɴɢ(ꜱ)."

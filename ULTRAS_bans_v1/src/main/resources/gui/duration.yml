@@ -1,0 +1,39 @@
+title: "&c&lᴜʟᴛʀᴀs &8» &fᴅᴜʀᴀᴛɪᴏɴ: {type} {name}"
+size: 45
+filler:
+  enabled: true
+  border-only: true
+  material: BLACK_STAINED_GLASS_PANE
+  name: " "
+items:
+  display:
+    slot: 22
+    material: CLOCK
+    name: "&c&lꜱᴇʟᴇᴄᴛᴇᴅ ᴅᴜʀᴀᴛɪᴏɴ"
+    lore: ["&f{duration}", " ", "&7ᴍᴀx: &f{max}"]
+  dec_30d: { slot: 9,  material: RED_DYE,   name: "&c-30d" }
+  dec_1w:  { slot: 10, material: RED_DYE,   name: "&c-1w" }
+  dec_7d:  { slot: 11, material: RED_DYE,   name: "&c-7d" }
+  dec_1d:  { slot: 12, material: RED_DYE,   name: "&c-1d" }
+  dec_16h: { slot: 13, material: RED_DYE,   name: "&c-16h" }
+  dec_6h:  { slot: 14, material: RED_DYE,   name: "&c-6h" }
+  dec_1h:  { slot: 15, material: RED_DYE,   name: "&c-1h" }
+  dec_30m: { slot: 16, material: RED_DYE,   name: "&c-30m" }
+  dec_15m: { slot: 17, material: RED_DYE,   name: "&c-15m" }
+  dec_10m: { slot: 25, material: RED_DYE,   name: "&c-10m" }
+  dec_5m:  { slot: 26, material: RED_DYE,   name: "&c-5m" }
+  dec_1m:  { slot: 34, material: RED_DYE,   name: "&c-1m" }
+  inc_1m:  { slot: 28, material: LIME_DYE,  name: "&a+1m" }
+  inc_5m:  { slot: 29, material: LIME_DYE,  name: "&a+5m" }
+  inc_10m: { slot: 30, material: LIME_DYE,  name: "&a+10m" }
+  inc_15m: { slot: 19, material: LIME_DYE,  name: "&a+15m" }
+  inc_30m: { slot: 20, material: LIME_DYE,  name: "&a+30m" }
+  inc_1h:  { slot: 21, material: LIME_DYE,  name: "&a+1h" }
+  inc_6h:  { slot: 23, material: LIME_DYE,  name: "&a+6h" }
+  inc_16h: { slot: 24, material: LIME_DYE,  name: "&a+16h" }
+  inc_1d:  { slot: 31, material: LIME_DYE,  name: "&a+1d" }
+  inc_7d:  { slot: 32, material: LIME_DYE,  name: "&a+7d" }
+  inc_1w:  { slot: 33, material: LIME_DYE,  name: "&a+1w" }
+  inc_30d: { slot: 35, material: LIME_DYE,  name: "&a+30d" }
+  execute: { slot: 40, material: EMERALD, name: "&a&lᴇxᴇᴄᴜᴛᴇ" }
+  back:    { slot: 36, material: ARROW, name: "&7« ʙᴀᴄᴋ" }

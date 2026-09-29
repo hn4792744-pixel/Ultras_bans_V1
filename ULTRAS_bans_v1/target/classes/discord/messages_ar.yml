@@ -1,0 +1,58 @@
+# {placeholder} substitution, then sent as a Discord embed (title/description/color/fields).
+# Colors are hex without '#'.
+punishment:
+  color: "E53935"
+  title: "{type} — {player}"
+  description: "**Reason:** {reason}\n**Duration:** {duration}\n**Operator:** {operator}\n**Server:** {server} / {world}"
+  footer: "ULTRAS_bans_v1 • عقوبة رقم {id}"
+
+lift:
+  color: "43A047"
+  title: "{type} lifted — {player}"
+  description: "**Reason:** {reason}\n**By:** {operator}"
+  footer: "ULTRAS_bans_v1 • عقوبة رقم {id}"
+
+join:
+  color: "43A047"
+  title: "{player} joined"
+  description: "**Platform:** {platform}\n**Server:** {server}\n**Rank:** {rank}"
+
+quit:
+  color: "757575"
+  title: "{player} left"
+  description: "**Server:** {server}\n**Session:** {duration}"
+
+chat:
+  color: "2F3136"
+  title: "{player} ({server})"
+  description: "{message}"
+
+commands:
+  color: "5865F2"
+  title: "Command executed"
+  description: "**Player:** {player}\n**Command:** {command}\n**Result:** {result}\n**Server:** {server}"
+
+console:
+  color: "2F3136"
+  title: "Console"
+  description: "{message}"
+
+death:
+  color: "8E24AA"
+  title: "{player} died"
+  description: "**Cause:** {cause}\n**Killer:** {killer}\n**Server:** {server} / {world}\n**Gamemode:** {gamemode}\n**Vanished:** {vanished}\n**OP:** {op}"
+
+statistics:
+  color: "1E88E5"
+  title: "{player} — Session statistics"
+  description: "**Blocks broken:** {blocks_broken}\n**Blocks placed:** {blocks_placed}\n**Kills:** {kills}\n**Deaths:** {deaths}\n**Playtime:** {playtime}\n**Distance traveled:** {distance}\n**Gamemode:** {gamemode}\n**Server:** {server}"
+
+achievement:
+  color: "FDD835"
+  title: "{player} earned an achievement!"
+  description: "**{achievement}**"
+
+security:
+  color: "F4511E"
+  title: "⚠ تنبيه أمني"
+  description: "**Staff:** {staff}\n**Action:** {action}\n**Count:** {count} in {window}\n**Response:** {response}"

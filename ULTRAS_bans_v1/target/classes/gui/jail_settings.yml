@@ -1,0 +1,11 @@
+title: "&c&lᴜʟᴛʀᴀs &8» &fᴊᴀɪʟ ꜱᴇᴛᴛɪɴɢꜱ: {name}"
+size: 27
+filler: { enabled: true, border-only: true, material: BLACK_STAINED_GLASS_PANE, name: " " }
+items:
+  chat:        { slot: 10, material: PAPER,      name: "&c&lᴄʜᴀᴛ ʙʟᴏᴄᴋ",          lore: ["&7ꜱᴛᴀᴛᴇ: {state}"] }
+  commands:    { slot: 11, material: COMMAND_BLOCK, name: "&c&lᴄᴏᴍᴍᴀɴᴅ ʙʟᴏᴄᴋ",    lore: ["&7ꜱᴛᴀᴛᴇ: {state}"] }
+  movement:    { slot: 12, material: LEATHER_BOOTS, name: "&c&lᴍᴏᴠᴇᴍᴇɴᴛ ʀᴇꜱᴛʀɪᴄᴛ", lore: ["&7ꜱᴛᴀᴛᴇ: {state}"] }
+  interaction: { slot: 14, material: TRIPWIRE_HOOK, name: "&c&lɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ʀᴇꜱᴛʀɪᴄᴛ", lore: ["&7ꜱᴛᴀᴛᴇ: {state}"] }
+  items:       { slot: 15, material: CHEST,      name: "&c&lɪᴛᴇᴍ ʀᴇꜱᴛʀɪᴄᴛ",        lore: ["&7ꜱᴛᴀᴛᴇ: {state}"] }
+  unjail:      { slot: 22, material: LIME_DYE,   name: "&a&lᴜɴᴊᴀɪʟ ᴘʟᴀʏᴇʀ" }
+  back:        { slot: 18, material: ARROW,      name: "&7« ʙᴀᴄᴋ" }

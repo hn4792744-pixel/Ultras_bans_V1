@@ -1,0 +1,10 @@
+title: "&c&lᴜʟᴛʀᴀs &8» &fʀᴀɴᴋ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ"
+size: 27
+filler: { enabled: true, border-only: true, material: BLACK_STAINED_GLASS_PANE, name: " " }
+items:
+  entry:
+    slots: [10,11,12,13,14,15,16]
+    material: NAME_TAG
+    name: "&c{rank}"
+    lore: ["&aᴄʟɪᴄᴋ ᴛᴏ ᴇᴅɪᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ"]
+  back: { slot: 18, material: ARROW, name: "&7« ʙᴀᴄᴋ" }

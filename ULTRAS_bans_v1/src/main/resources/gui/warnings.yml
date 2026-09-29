@@ -1,0 +1,19 @@
+title: "&c&lᴜʟᴛʀᴀs &8» &fᴡᴀʀɴɪɴɢꜱ: {name}"
+size: 54
+filler: { enabled: true, border-only: true, material: BLACK_STAINED_GLASS_PANE, name: " " }
+items:
+  active_header: { slot: 1, material: LIME_DYE, name: "&a&lᴀᴄᴛɪᴠᴇ ᴡᴀʀɴɪɴɢꜱ &8({active_count})" }
+  active_entry:
+    slots: [10,11,12,13,14,15,16]
+    material: YELLOW_DYE
+    name: "&e#{id}"
+    lore: ["&7ʀᴇᴀꜱᴏɴ: &f{reason}", "&7ᴏᴘᴇʀᴀᴛᴏʀ: &f{operator}", "&7ᴅᴀᴛᴇ: &f{date}", " ", "&cᴄʟɪᴄᴋ ᴛᴏ ᴍᴀɴᴀɢᴇ"]
+  no_active: { slot: 13, material: BARRIER, name: "&7📋 ɴᴏ ᴀᴄᴛɪᴠᴇ ᴡᴀʀɴɪɴɢꜱ ꜰᴏᴜɴᴅ" }
+  expired_header: { slot: 19, material: GRAY_DYE, name: "&7&lᴇxᴘɪʀᴇᴅ ᴡᴀʀɴɪɴɢꜱ &8({expired_count})" }
+  expired_entry:
+    slots: [28,29,30,31,32,33,34]
+    material: GRAY_DYE
+    name: "&7#{id}"
+    lore: ["&7ʀᴇᴀꜱᴏɴ: &f{reason}", "&7ᴏᴘᴇʀᴀᴛᴏʀ: &f{operator}", "&7ᴅᴀᴛᴇ: &f{date}"]
+  remove_all: { slot: 49, material: BARRIER, name: "&4&lʀᴇᴍᴏᴠᴇ ᴀʟʟ ᴡᴀʀɴɪɴɢꜱ" }
+  back: { slot: 45, material: ARROW, name: "&7« ʙᴀᴄᴋ" }

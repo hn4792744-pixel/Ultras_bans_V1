@@ -1,0 +1,8 @@
+{
+  "id": "ultrasbans",
+  "name": "ULTRAS_bans_v1",
+  "version": "1.0.0",
+  "description": "Network-wide ban/IP-ban enforcement at the Velocity proxy edge.",
+  "authors": ["ULTRAS"],
+  "main": "com.ultras.bans.proxy.velocity.UltrasBansVelocityPlugin"
+}

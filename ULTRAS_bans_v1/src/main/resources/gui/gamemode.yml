@@ -1,0 +1,11 @@
+title: "&c&lᴜʟᴛʀᴀs &8» &fɢᴀᴍᴇᴍᴏᴅᴇ: {name}"
+size: 27
+filler: { enabled: true, border-only: true, material: BLACK_STAINED_GLASS_PANE, name: " " }
+items:
+  info: { slot: 4, material: NAME_TAG, name: "&f{name}", lore: ["&7ᴄᴜʀʀᴇɴᴛ: &f{mode}", "&7ᴠᴀɴɪꜱʜ: {vanish}"] }
+  survival:  { slot: 10, material: GRASS_BLOCK,   name: "&a&lꜱᴜʀᴠɪᴠᴀʟ" }
+  creative:  { slot: 11, material: DIAMOND_PICKAXE, name: "&b&lᴄʀᴇᴀᴛɪᴠᴇ" }
+  adventure: { slot: 12, material: MAP,           name: "&e&lᴀᴅᴠᴇɴᴛᴜʀᴇ" }
+  spectator: { slot: 13, material: ENDER_EYE,     name: "&7&lꜱᴘᴇᴄᴛᴀᴛᴏʀ" }
+  vanish:    { slot: 15, material: GLASS,         name: "&d&lᴛᴏɢɢʟᴇ ᴠᴀɴɪꜱʜ" }
+  back:      { slot: 18, material: ARROW,         name: "&7« ʙᴀᴄᴋ" }

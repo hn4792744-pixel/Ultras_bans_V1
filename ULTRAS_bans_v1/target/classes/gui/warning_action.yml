@@ -1,0 +1,11 @@
+title: "&c&lᴜʟᴛʀᴀs &8» &fᴡᴀʀɴɪɴɢ #{id}"
+size: 27
+filler: { enabled: true, border-only: true, material: BLACK_STAINED_GLASS_PANE, name: " " }
+items:
+  info:
+    slot: 13
+    material: PAPER
+    name: "&e&lᴡᴀʀɴɪɴɢ #{id}"
+    lore: ["&7ʀᴇᴀꜱᴏɴ: &f{reason}", "&7ᴏᴘᴇʀᴀᴛᴏʀ: &f{operator}", "&7ᴅᴀᴛᴇ: &f{date}"]
+  remove: { slot: 15, material: BARRIER, name: "&c&lʀᴇᴍᴏᴠᴇ ᴡᴀʀɴɪɴɢ" }
+  back: { slot: 11, material: ARROW, name: "&7« ʙᴀᴄᴋ" }

@@ -1,0 +1,43 @@
+# =============================================================================
+# One webhook URL per category. Leave blank to disable that category, or
+# point several categories at the same webhook to merge them into one channel.
+# =============================================================================
+webhooks:
+  ban-channel: ""
+  ipban-channel: ""
+  mute-channel: ""
+  warn-channel: ""
+  freeze-channel: ""
+  jail-channel: ""
+  vanish-channel: ""
+  kick-channel: ""
+  admin-channel: ""
+  chat-channel: ""
+  join-channel: ""
+  quit-channel: ""
+  death-channel: ""
+  commands-channel: ""
+  console-channel: ""
+  statistics-channel: ""
+  achievements-channel: ""
+
+# Per-category on/off switch, independent from having a webhook configured
+# (so you can temporarily silence a category without deleting its URL).
+enabled:
+  ban: true
+  ipban: true
+  mute: true
+  warn: true
+  freeze: true
+  jail: true
+  vanish: true
+  kick: true
+  admin: true
+  chat: false
+  join: false
+  quit: false
+  death: false
+  commands: false
+  console: false
+  statistics: false
+  achievements: true

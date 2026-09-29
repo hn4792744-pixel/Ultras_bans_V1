@@ -1,0 +1,23 @@
+# =============================================================================
+# Jail defaults (spec sections 17-18)
+# =============================================================================
+# Default restrictions applied to a newly jailed player. Staff can toggle each
+# one per player afterwards via /jail setting <player>.
+# NOTE: jailing does NOT freeze and does NOT block movement by default.
+defaults:
+  chat-blocked: true
+  commands-blocked: true
+  movement-restricted: false
+  interaction-restricted: true
+  items-restricted: true
+
+# Commands a jailed player may still use while commands-blocked is true.
+allowed-commands:
+  - "msg"
+  - "r"
+  - "help"
+  - "rules"
+
+# Movement restriction (when enabled) keeps the player inside this radius of the jail spawn
+# instead of fully freezing them.
+movement-radius: 8

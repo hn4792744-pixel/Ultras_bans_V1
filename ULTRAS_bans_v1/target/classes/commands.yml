@@ -1,0 +1,97 @@
+# =============================================================================
+# Per-command switches
+# =============================================================================
+# Any command label listed under "disabled-commands" is treated as if it does
+# not exist at all: it will NOT appear in tab completion, and running it
+# returns the server's normal "Unknown command" message rather than a
+# "no permission" message - so its existence isn't revealed to players who
+# don't already know about it. Staff with ultrasbans.bypass.disabled can
+# still use it regardless of this list (useful for temporarily disabling a
+# command for regular staff while console/admins keep access).
+#
+# Use the exact label as registered in plugin.yml, not the alias (aliases of a
+# disabled label are disabled automatically).
+#
+# Example:
+# disabled-commands:
+#   - "kick"
+#   - "ipban"
+# -----------------------------------------------------------------------------
+
+disabled-commands: []
+
+# -----------------------------------------------------------------------------
+# Conflict guard (see listener/CommandConflictGuard.java)
+# -----------------------------------------------------------------------------
+# When true, any OTHER plugin's command that shares a label with one of ours
+# (ban, kick, mute, warn, freeze, jail, vanish, tempban, unban, etc.) is
+# cancelled before it can run, and only ULTRAS_bans_v1's handler executes.
+# This is what "لا تسمح بتعارض الأوامر" (no conflicting commands) means in
+# practice: plugin.yml already claims these labels so Bukkit's command map
+# will refuse to register a duplicate from another plugin at load time, but
+# some plugins inject command execution outside the command map (e.g. via
+# their own console dispatch) - this guard catches that too.
+conflict-guard-enabled: true
+
+# Labels this guard actively protects. Extend this list if you add custom
+# aliases elsewhere that must always resolve to ULTRAS_bans_v1.
+protected-labels:
+  - "ban"
+  - "tempban"
+  - "unban"
+  - "ipban"
+  - "ip_ban"
+  - "unipban"
+  - "un_ip_ban"
+  - "mute"
+  - "unmute"
+  - "warn"
+  - "kick"
+  - "freeze"
+  - "frz"
+  - "unfreeze"
+  - "unfrz"
+  - "setjail"
+  - "jail"
+  - "unjail"
+  - "vanish"
+  - "vn"
+  - "nv"
+  - "admin"
+  - "tam"
+
+# -----------------------------------------------------------------------------
+# Hidden conflicting commands
+# -----------------------------------------------------------------------------
+# Vanilla / third-party commands that overlap with ULTRAS_bans_v1 features.
+# They are removed from tab completion and blocked ("Unknown command") for
+# everyone without ultrasbans.bypass.disabled, so only this plugin's commands
+# are usable. Console is never blocked. Namespaced forms (minecraft:ban,
+# essentials:ban ...) are handled automatically for protected-labels above.
+hidden-conflicting-commands:
+  - "pardon"
+  - "pardon-ip"
+  - "ban-ip"
+  - "banlist"
+  - "gamemode"
+  - "defaultgamemode"
+  - "teleport"
+  - "minecraft:pardon"
+  - "minecraft:pardon-ip"
+  - "minecraft:ban-ip"
+  - "minecraft:banlist"
+  - "minecraft:gamemode"
+  - "minecraft:teleport"
+  - "eban"
+  - "etempban"
+  - "ekick"
+  - "emute"
+  - "ejail"
+  - "evanish"
+  - "efreeze"
+  - "ewarn"
+  - "essentials:ban"
+  - "essentials:kick"
+  - "essentials:mute"
+  - "essentials:jail"
+  - "essentials:vanish"

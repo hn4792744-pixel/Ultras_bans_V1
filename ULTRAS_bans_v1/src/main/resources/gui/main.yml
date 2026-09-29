@@ -1,0 +1,42 @@
+title: "&c&lᴜʟᴛʀᴀs &8» &fᴀᴅᴍɪɴ ᴘᴀɴᴇʟ"
+size: 27
+filler:
+  enabled: true
+  border-only: true
+  material: BLACK_STAINED_GLASS_PANE
+  name: " "
+items:
+  players:
+    slot: 10
+    material: PLAYER_HEAD
+    name: "&c&lᴘʟᴀʏᴇʀs"
+    lore: ["&7ᴏᴘᴇɴ ᴛʜᴇ ᴘʟᴀʏᴇʀ ꜱᴇʟᴇᴄᴛᴏʀ"]
+  ranks:
+    slot: 11
+    material: GOLD_INGOT
+    name: "&c&lʀᴀɴᴋ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ"
+    lore: ["&7ᴇᴅɪᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ ʙʏ ʀᴀɴᴋ"]
+  permissions:
+    slot: 12
+    material: COMMAND_BLOCK
+    name: "&c&lᴘʟᴀʏᴇʀ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ"
+    lore: ["&7ᴇᴅɪᴛ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ᴘʟᴀʏᴇʀ'ꜱ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ"]
+  gamemode:
+    slot: 14
+    material: GRASS_BLOCK
+    name: "&c&lɢᴀᴍᴇᴍᴏᴅᴇ"
+    lore: ["&7ᴄʜᴀɴɢᴇ ᴀ ᴘʟᴀʏᴇʀ'ꜱ ɢᴀᴍᴇᴍᴏᴅᴇ"]
+  teleport:
+    slot: 15
+    material: ENDER_PEARL
+    name: "&c&lᴛᴇʟᴇᴘᴏʀᴛ"
+    lore: ["&7ᴛᴇʟᴇᴘᴏʀᴛ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴛɪᴏɴ"]
+  jail_settings:
+    slot: 16
+    material: IRON_BARS
+    name: "&c&lᴊᴀɪʟ ꜱᴇᴛᴛɪɴɢꜱ"
+    lore: ["&7ᴇᴅɪᴛ ʀᴇꜱᴛʀɪᴄᴛɪᴏɴꜱ ꜰᴏʀ ᴀ ᴊᴀɪʟᴇᴅ ᴘʟᴀʏᴇʀ"]
+  close:
+    slot: 22
+    material: BARRIER
+    name: "&c&lᴄʟᴏꜱᴇ"

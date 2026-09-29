@@ -1,0 +1,5 @@
+name: ULTRAS_bans_v1
+main: com.ultras.bans.proxy.bungee.UltrasBansBungeePlugin
+version: '${project.version}'
+author: ULTRAS
+description: Network-wide ban/IP-ban enforcement at the BungeeCord/Waterfall proxy edge.

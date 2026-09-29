@@ -1,0 +1,11 @@
+title: "&c&lᴜʟᴛʀᴀs &8» &fᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ: {name}"
+size: 54
+filler: { enabled: true, border-only: true, material: BLACK_STAINED_GLASS_PANE, name: " " }
+items:
+  info: { slot: 4, material: NAME_TAG, name: "&f{name}" }
+  entry:
+    slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34,37,38,39,40,41,42,43]
+    material: PAPER
+    name: "&c{command}"
+    lore: ["&7{description}", " ", "&7ꜱᴛᴀᴛᴇ: {state}", " ", "&aᴄʟɪᴄᴋ ᴛᴏ ᴄʏᴄʟᴇ: ᴛʀᴜᴇ → ꜰᴀʟꜱᴇ → ᴅᴇꜰᴀᴜʟᴛ"]
+  back: { slot: 49, material: ARROW, name: "&7« ʙᴀᴄᴋ" }

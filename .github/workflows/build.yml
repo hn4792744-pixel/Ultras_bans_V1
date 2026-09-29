@@ -21,11 +21,11 @@ jobs:
           cache: maven
 
       - name: Build Plugin
-        run: mvn clean package -DskipTests
+        run: cd ULTRAS_bans_v1 \run: mvn clean package -DskipTests\run: mvn clean package -DskipTests mvn clean package -DskipTests
 
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
           name: ULTRAS-BANS-JAR
-          path: target/*.jar
+          path: ULTRAS_bans_v1/target/*.jar
           if-no-files-found: error
